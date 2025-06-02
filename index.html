@@ -1,51 +1,492 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PORTOSTAR</title>
 
+    <!-- Google Fonts Start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts End -->
+
     <!-- Css File Start -->
-     <link rel="stylesheet" href="CSS/all.min.css">
-     <link rel="stylesheet" href="CSS/bootstrap.min.css">
-     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/media.css">
     <!-- Css File Start -->
+  </head>
+  <body>
+    <!-- Heading Part Start -->
 
-</head>
-<body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="Images/LOGO.png" alt="LOGO.PNG" />
+        </a>
 
-<!-- Heading Part Start -->
-<!-- Heading Part End -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
 
-<!-- Heading Part Start -->
-<!-- Heading Part End -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">HOME</a>
+            </li>
 
-<!-- Heading Part Start -->
-<!-- Heading Part End -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT US</a>
+            </li>
 
-<!-- Heading Part Start -->
-<!-- Heading Part End -->
+            <li class="nav-item">
+              <a class="nav-link" href="#"> SERVICE</a>
+            </li>
 
-<!-- Heading Part Start -->
-<!-- Heading Part End -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">WORK</a>
+            </li>
+          </ul>
 
-<!-- Heading Part Start -->
-<!-- Heading Part End -->
+          <a class="mCb" href="#">
+            HIRE ME
+            <i class="fa-regular fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
 
-<!-- Heading Part Start -->
-<!-- Heading Part End -->
+    <!-- Heading Part End -->
 
+    <!-- Banner Part Start -->
 
+    <section id="bannerPart">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="bannerText">
+              <h4>SHAKIB AL HASAN</h4>
 
+              <h1>Hello, my name’s Sakib. I’m MERN Stack Developer.</h1>
 
+              <a class="mCb bbc" href="#">
+                <i class="fa-regular fa-envelope"></i>
+                HIRE ME
+              </a>
 
-<!-- All JS File Start -->
+              <a class="mCb bbc" href="#">
+                <i class="fa-solid fa-circle-down"></i>
+                DOWNLOAD CV
+              </a>
+            </div>
+          </div>
 
- <script src="JS/jquery-1.12.4.min.js"></script>
- <script src="JS/bootstrap.bundle.min.js"></script>
- <script src="JS/script.js"></script>
+          <div class="col-lg-7">
+            <img
+              src="Images/Avatar.png"
+              alt="Avatar.png"
+              class="img-fluid w-100 shakibPic"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- All Js File End -->
+    <!-- Banner Part End -->
 
-</body>
+    <!-- Counter Part Start -->
+
+    <section id="counterPart">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-xs-6">
+                    <div class="counterItem text-center">
+                        <h3>100+</h3>
+                        <h4>PROJECTS</h4>
+                    </div>
+                </div>
+
+                 <div class="col-lg-3  col-xs-6">
+                    <div class="counterItem text-center">
+                        <h3>24</h3>
+                        <h4>WINNING AWARD</h4>
+                    </div>
+                </div>
+
+                 <div class="col-lg-3 col-xs-6">
+                    <div class="counterItem text-center">
+                        <h3>70+</h3>
+                        <h4>HAPPY CLIENTS</h4>
+                    </div>
+                </div>
+
+                 <div class="col-lg-3 col-xs-6">
+                    <div class="counterItem text-center">
+                        <h3>10</h3>
+                        <h4>YEARS EXPERIENCE</h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Counter Part End -->
+
+    <!-- Service Part Start -->
+
+    <section id="servicePart">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-8 m-auto">
+            <div class="serviceText text-center mb-5">
+              <h4>SERVICES</h4>
+              <h3>What I Do For My Customer.</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+
+       <div class="col-lg-4">
+         <div class="serviceItem text-center">
+            <img src="Images/Group 21.png" alt="Group 21.png">
+            <h3>UI/UX Design</h3>
+            <p>lorem ipsum dolor sit amet consectur adi pising leo</p>
+          </div>
+        </div>
+
+         <div class="col-lg-4">
+         <div class="serviceItem text-center">
+            <img src="Images/Group 19.png" alt="Group 19.png">
+            <h3>Product Design</h3>
+            <p>lorem ipsum dolor sit amet consectur adi pising leo</p>
+          </div>
+        </div>
+
+         <div class="col-lg-4">
+         <div class="serviceItem text-center">
+            <img src="Images/Group 27.png" alt="Group 27.png">
+            <h3>Motion Graphics</h3>
+            <p>lorem ipsum dolor sit amet consectur adi pising leo</p>
+          </div>
+        </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Service Part End -->
+
+    <!-- Experience Part Start -->
+
+    <section id="experiencePart">
+
+      <div class="container">
+
+        <div class="row">
+
+           <div class="col-lg-5">
+
+            <div class="experienceText">
+
+              <h4>GRAPHIC DESIGNER</h4>
+
+              <h1>Graphic Designer With 10 Years Of Experience.</h1>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.</p>
+
+              <a class="mCb bbc" href="#">
+                <i class="fa-regular fa-envelope"></i>
+                CONTACT ME
+              </a>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Experience Part End -->
+
+    <!-- Clients  Part Start -->
+
+    <section id="clientsPart">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-3 col-cp-06">
+            <img src="Images/logoipsum-logo-1.png" alt="logoipsum-logo-1.png">
+          </div>
+
+             <div class="col-lg-3 col-cp-06">
+            <img src="Images/logoipsum-logo-3.png" alt="logoipsum-logo-3.png">
+          </div>
+
+             <div class="col-lg-3 col-cp-06">
+            <img src="Images/logoipsum-logo-6.png" alt="logoipsum-logo-6.png">
+          </div>
+
+             <div class="col-lg-3 col-cp-06">
+            <img src="Images/logoipsum-logo-7.png" alt="logoipsum-logo-7.png">
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Clients Part End -->
+
+    <!-- Portfolio Part Start -->
+
+    <section id="portfolioPart">
+
+      <div class="container">
+
+        <div class="row">
+
+           <div class="col-lg-6">
+             <div class="portfolioText mb-5">
+              <h4>PORTFOLIO</h4>
+              <h3>Selected Works.</h3>
+                 </div>
+               </div>
+            <div class="col-lg-6">
+              <div class="portfolioText mb-5">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.hendrerit velit, dictum nisl.</p>
+                </div>
+              </div>
+
+              <div class="col-lg-6 mt-5">
+                <div class="card cCard">
+                 <img src="Images/agency.webp" class="card-img-top" alt="agency.webp">
+                 <div class="card-body">
+                <h5 class="card-title">Creativa - Elementor Template Kit</h5>
+                <p class="card-text">UI/UX Design</p>
+                </div>
+               </div>
+              </div>
+
+               <div class="col-lg-6 mt-5">
+                <div class="card cCard">
+                 <img src="Images/agency.webp" class="card-img-top" alt="agency.webp">
+                 <div class="card-body">
+                <h5 class="card-title">Nusapp - Elementor Template Kit</h5>
+                <p class="card-text">UI/UX Design</p>
+                </div>
+               </div>
+              </div>
+
+               <div class="col-lg-6 mt-5">
+                <div class="card cCard">
+                 <img src="Images/agency.webp" class="card-img-top" alt="agency.webp">
+                 <div class="card-body">
+                <h5 class="card-title">Webina - Elementor Template Kit</h5>
+                <p class="card-text">UI/UX Design</p>
+                </div>
+               </div>
+              </div>
+
+               <div class="col-lg-6 mt-5">
+                <div class="card cCard">
+                 <img src="Images/agency.webp" class="card-img-top" alt="agency.webp">
+                 <div class="card-body">
+                <h5 class="card-title">Marketin - Elementor Template Kit</h5>
+                <p class="card-text">UI/UX Design</p>
+                </div>
+               </div>
+              </div>
+
+      </div>
+      </div>
+
+    </section>
+
+    <!-- Portfolio Part End -->
+
+    <!-- Review Part Start-->
+
+    <section id="reviewPart">
+
+      <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-8 m-auto">
+            <div class="reviewText text-center mb-5">
+              <h4>TESTIMONY</h4>
+              <h3>What Our Clients Say.</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="testymoniItem">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+             <div class="testymoniText">
+               <p>Nulla nunc orci, suscipit vitae rutrum vitae, sagittis eget dui. Vestibulum nisl lorem, porta at mollis varius, tincidunt in lectus. Nam pulvinar auctor sem ac dictum. Ut sed felis urna.</p>
+             </div>
+             <div class="testymoniBottom">
+              <div class="testimonyFlex">
+                   <img src="Images/2210184.png" alt="2210184.png" style="width: 64px;">
+              <div class="testimonyAbout">
+                <h3>David Gueta</h3>
+                <p>UI/UX Designer</p>
+              </div>
+              </div>
+               <div class="testymonyChat">
+              <img src="Images/Frame.png" alt="Frame.png" style="width: 45px;">
+             </div>
+             </div>
+            
+            </div>
+          </div>
+
+            <div class="col-lg-6">
+            <div class="testymoniItem">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+             <div class="testymoniText">
+               <p>Nulla nunc orci, suscipit vitae rutrum vitae, sagittis eget dui. Vestibulum nisl lorem, porta at mollis varius, tincidunt in lectus. Nam pulvinar auctor sem ac dictum. Ut sed felis urna.</p>
+             </div>
+             <div class="testymoniBottom">
+              <div class="testimonyFlex">
+                   <img src="Images/2210184.png" alt="2210184.png" style="width: 64px;">
+              <div class="testimonyAbout">
+                <h3>David Gueta</h3>
+                <p>UI/UX Designer</p>
+              </div>
+              </div>
+               <div class="testymonyChat">
+              <img src="Images/Frame.png" alt="Frame.png" style="width: 45px;">
+             </div>
+             </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Review Part End -->
+
+    <!-- CTA Part Start -->
+
+    <section id="ctaPart">
+      <div class="container">
+        <div class="row">
+          <div class="ctaDetails col-lg-12">
+             <div class="col-lg-8 m-auto">
+               <div class="ctaText text-center mb-5">
+                 <h3>Interested Working With me? Let's connect!</h3>
+                 <a class="mCb bbc" href="#">
+                 <i class="fa-regular fa-envelope"></i>
+                CONTACT ME
+              </a>
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- CTA Part End -->
+
+    <!-- Footer Part Start -->
+
+    <section id="footerPart">   
+      <div class="container fpartTop">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="footerLeftpart">
+              <img src="Images/Footer Logo.png" alt="Footer Logo.png">
+              <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit.</P>
+            </div>
+          </div>
+          <div class="col-lg-3 ms-auto">
+            <div class="footerRightpart ">
+              <a href="#">
+               <i class="fa-regular fa-envelope" style="color: #ffffff;"></i>
+                 inquiry@portostar.com
+              </a>
+               <a href="#">
+                <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+                 (001) 1231 3435
+               </a> 
+                 <div class="footerIcon">
+                                    <a hre="#"><i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff;"></i></a>
+                                    <a hre="#"><i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i></a>
+                                    <a hre="#"><i class="fa-brands fa-linkedin-in fa-2xl" style="color: #ffffff;"></i></a>
+                                    <a><i class="fa-solid fa-earth-asia fa-2xl" style="color: #ffffff;"></i></a>
+                        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8">
+                     <nav class="footerMenu">
+                           <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">ABOUT US</a></li>
+                            <li><a href="#">SERVICES</a></li>
+                            <li><a href="#">WORKS</a></li>
+                           </ul>
+                        </nav>
+                    </div>
+                      <div class="col-lg-3 ms-auto tt">
+                          <h6>© All Right Reserved</h6>
+                       </div>
+                  </div>
+                </div>
+              </div>
+
+    </section>
+
+    <!-- Footer Part End -->
+
+    <!-- All JS File Start -->
+
+    <script src="JS/jquery-1.12.4.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/script.js"></script>
+
+    <!-- All Js File End -->
+  </body>
+
 </html>

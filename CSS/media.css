@@ -1,0 +1,655 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+      /* Header Part Start */
+
+    .navbar-toggler i{
+        color: #5e3bee;
+        font-size: 35px;
+    }
+    .navbar-nav {
+        background: #5e3bee;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .nav-link {
+	    color: #fff;
+        font-weight: 700;
+    }
+    /* Header PART End */
+
+    /* Banner Part Start */
+    .bannerText{
+        text-align: center;
+    }
+    .bannerText h4 {
+	    margin-top: 20px;
+    }
+    .bannerText h4 {
+	  font-size: 22px;
+	  font-weight: 600;
+    }
+    .bannerText h1 {
+       font-size: 55px;
+       line-height: 65px;
+       margin-top: 25px;
+       margin-bottom: 25px; 
+    }
+    .mCb {
+        margin-top: 15px;
+    }
+    .shakibPic{
+        margin-top: 25px;
+    }
+
+    /* Banner Part End */
+
+     /* Counter Part Start */
+
+    .counterItem h4 {
+	  font-size: 15px;
+	  font-weight: 500;
+    }
+
+    .col-xs-6{
+        width:50%;
+        margin: 20px 0px;
+
+    }
+    #counterPart {
+	    padding: 60px 0px;
+    }
+
+    /* Counter Part End */
+
+    /* Service Part Start */
+
+    #servicePart {
+	  margin-top: 35px;
+	  margin-bottom: 100px;
+      align-items: center;
+    }
+    .serviceText h4 {
+	  font-size: 22px;
+
+    }
+    .serviceText h3 {
+	  font-size: 40px;
+	  margin-top: 25px;
+	  margin-bottom: 30px;
+    }
+    .serviceText p{
+      font-size: 20px;
+      font-weight: 550;
+      padding: 0px;
+    }
+    .serviceItem{
+        margin-bottom: 40px;
+    }
+    .serviceItem h3 {
+       font-size: 22px;
+       margin-top: 25px;
+	   margin-bottom: 20px;
+       font-weight: bold;
+    }
+    .serviceItem p {
+	 font-size: 20px;
+	 font-weight: 500;
+    }
+
+    /* Service Part End */
+
+    /* Expereience Part Start */
+
+    #experiencePart {
+	 padding: 65px 0px;
+    }
+    .experienceText h4 {
+	  font-size: 25px;
+	  font-weight: 500;
+    }
+    .experienceText{
+        text-align: center;
+    }
+    .experienceText h1 {
+	   font-size: 53px;	
+	   line-height: 70px;
+    }
+    .experienceText p {
+	   font-size: 20px;
+	   font-weight: 500;
+       line-height: 40px;
+       padding: 0px;
+       margin-bottom: 20px;
+
+    }
+
+    /* Expereience PaRT End */
+
+     /* Clients Parts Start */
+
+    #clientsPart {
+    	padding: 65px 0px;
+    }
+
+   .col-cp-06{
+      width:50%;
+      margin: 20px 0px;
+   }
+
+   /* Portfolio Part End */
+
+    #portfolioPart {
+	   text-align: center;
+       padding: 80px 0px;
+    }
+    .portfolioText h4 {
+	  font-size: 25px;
+	  font-weight: 530;
+    }
+    .portfolioText h1{
+        font-size:35px ;
+    }
+    .portfolioText h3{
+	   font-size: 50px;
+    }
+    .portfolioText p {
+	  font-size: 22px;
+      line-height: 35px;
+      font-weight: 600;
+    }
+    .reviewText h3 {
+	 font-size: 50px;
+    }
+    .card-body h5{
+    	font-weight: bold;
+    }
+     .card-body p{
+    	font-weight: 550;
+    }
+
+    /* Portfolio Part End */
+
+    /* Testimony Part Start */
+
+    .reviewText h4 {
+	  font-size: 25px;
+	  font-weight: 530;
+    }
+    .reviewText h3 {
+	  font-size: 50px;
+    }
+    .reviewText p {
+	 font-size: 15px;
+	 font-weight: 550;
+	 line-height: 35px;
+    }
+    .testymoniText p {
+	  font-size: 26px;
+	  line-height: 35px;
+    }
+    .testymoniItem {
+      margin-bottom: 25px;
+    }
+
+    /* Testimony Part End */
+
+    /* Cta Part Start */
+
+    .ctaDetails {
+        padding: 80px 0px;
+    }
+    .ctaText h3 {
+	  font-size: 42px;
+	  margin-bottom: 20px;
+    }
+
+    /* Cta Part End */
+
+    /* Footer Part Start */
+
+    .fpartTop {
+	  padding-bottom: 50px;
+    }
+    .footerLeftpart p {
+      font-size: 18px;
+	  line-height: 40px;
+	  text-align: center;
+      margin: 0 auto;
+    }
+    .footerRightpart{
+        margin-top: 25px;
+        text-align: center;
+    }
+    .footerRightpart a{
+        margin-right: 20px;
+        line-height: 40px;
+    }
+    .footerMenu{
+	 text-align: center;
+    }
+    .tt{
+        text-align: center;
+    }
+
+    /* Footer Part End */
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* Header Part Start */
+
+    .navbar-toggler i{
+        color: #5e3bee;
+        font-size: 30px;
+    }
+   .navbar-nav {
+        background: #5e3bee;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .nav-link {
+	    color: #fff;
+        font-weight: 700;
+    }
+
+    /* Header PART End */
+
+    /* Banner Part Start */
+    .bannerText{
+        text-align: center;
+    }
+    .bannerText h4 {
+	    margin-top: 20px;
+    }
+    .bannerText h1 {
+       font-size: 40px;
+       line-height: 48px;
+       margin-top: 25px;
+       margin-bottom: 25px; 
+    }
+    .mCb {
+        margin-top: 15px;
+    }
+    .shakibPic{
+        margin-top: 25px;
+    }
+
+    /* Banner Part End */
+
+    /* Counter Part Start */
+    .counterItem h4 {
+	 font-size: 15px;
+	 font-weight: 500;
+    }
+
+    .col-xs-6{
+        width:50%;
+        margin: 20px 0px;
+
+    }
+    #counterPart {
+	    padding: 60px 0px;
+    }
+
+    /* Counter Part End */
+
+    /* Service Part Start */
+
+    #servicePart {
+	  margin-top: 35px;
+	  margin-bottom: 100px;
+      align-items: center;
+    }
+    .serviceText h3 {
+	  font-size: 35px;
+	  margin-top: 25px;
+	  margin-bottom: 30px;
+    }
+    .serviceText p{
+      font-size: 14px;
+      font-weight: 550;
+      padding: 0px;
+    }
+    .serviceItem{
+        margin-bottom: 25px;
+    }
+    .serviceItem h3 {
+       font-size: 22px;
+       margin-top: 25px;
+	   margin-bottom: 20px;
+       font-weight: bold;
+    }
+    .serviceItem p {
+	 font-size: 20px;
+	 font-weight: 500;
+    }
+    /* Service Part End */
+
+    /* Expereience Part Start */
+
+    #experiencePart {
+	 padding: 65px 0px;
+    }
+    .experienceText{
+        text-align: center;
+    }
+    .experienceText h1 {
+	   font-size: 40px;	
+	   line-height: 60px;
+    }
+    .experienceText p {
+	   font-size: 15px;
+	   font-weight: 500;
+       padding: 0px;
+       margin-bottom: 20px;
+
+    }
+
+    /* Expereience PaRT End */
+
+    /* Clients Parts Start */
+
+    #clientsPart {
+    	padding: 65px 0px;
+    }
+
+   .col-cp-06{
+      width:50%;
+      margin: 20px 0px;
+   }
+
+    /* Clients Parts End */
+
+    /* Portfolio Part End */
+
+    #portfolioPart {
+	   text-align: center;
+       padding: 80px 0px;
+    }
+    .portfolioText h1{
+        font-size:35px ;
+    }
+    .portfolioText h3{
+	   font-size: 35px;
+       margin-top: 25px;
+	   margin-bottom: 25px;
+    }
+    .portfolioText p {
+	  font-size: 13px;
+	  font-weight: 600;
+	  padding: 0px;
+      margin-top: 0px;
+    }  
+
+    /* Portfolio Part End */
+
+
+    /* Testimony part Start */
+
+    #reviewPart {
+	 padding: 65px 0px;
+    
+    }
+    .reviewText h3 {
+	  font-size: 26px;
+    }
+    .reviewText p {
+      font-size: 14px;
+      font-weight: 450;
+      padding: 0px;
+    }
+    .testymoniText p {
+	  font-size: 18px;
+    }
+    .testimonyFlex img{
+	  width: 35px;
+	  height: 65px;
+    }
+    .testimonyAbout h3 {
+	  font-size: 20px;
+    }
+    .testimonyAbout p {
+	  font-size: 15px;
+    }
+    .testymoniItem {
+	 margin-bottom: 20px;
+    }
+
+    /* Testimony Part End */
+
+    /*  Cta part Start */
+
+    .ctaDetails {
+	  padding: 50px 0px;
+    }
+    .ctaText h3 {
+	 font-size: 27px;
+	 margin-top: 15px;
+	 margin-bottom: 20px;
+	 line-height: 45px;
+    }
+    .mCb {
+	 margin-top: 10px;
+    }
+    .mCb {
+	 padding: 15px 20px;
+    }
+
+    /* Cta Part End */
+
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    /* Header Part Start */
+
+    .navbar-toggler i{
+        color: #5e3bee;
+        font-size: 30px;
+    }
+   .navbar-nav {
+        background: #5e3bee;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .nav-link {
+	    color: #fff;
+        font-weight: 700;
+    }
+
+    /* Header PART End */
+
+    /* Banner Part Start */
+    .bannerText{
+        text-align: center;
+    }
+    .bannerText h4 {
+	    margin-top: 20px;
+    }
+    .bannerText h1 {
+       font-size: 24px;
+       line-height: 48px;
+       margin-top: 25px;
+       margin-bottom: 25px; 
+    }
+    .mCb {
+        margin-top: 15px;
+    }
+    .shakibPic{
+        margin-top: 20px;
+    }
+
+    /* Banner Part End */
+
+    /* Counter Part Start */
+
+    .col-xs-6{
+        width:50%;
+        margin: 20px 0px;
+
+    }
+    #counterPart {
+	    padding: 60px 0px;
+    }
+    .counterItem h4 {
+	 font-weight: 500;
+    }
+
+    /* Counter Part End */
+
+    /* Service Part Start */
+
+    #servicePart {
+	  margin-top: 35px;
+	  margin-bottom: 100px;
+      align-items: center;
+    }
+    .serviceText h3 {
+	  font-size: 35px;
+	  margin-top: 25px;
+	  margin-bottom: 30px;
+    }
+    .serviceText p{
+      font-size: 14px;
+      font-weight: 450;
+      padding: 0px;
+    }
+    .serviceItem{
+        margin-bottom: 25px;
+    }
+    .serviceItem h3 {
+	 font-size: 20px;
+	 margin-top: 25px;
+	 margin-bottom: 20px;
+     font-weight: bold;
+    }
+    .serviceItem p {
+      font-size: 12px;
+	  font-weight: 500;
+	  line-height: 30px;
+    }
+    /* Service Part End */
+
+    /* Expereience Part Start */
+
+    .experienceText{
+        text-align: center;
+    }
+    .experienceText h1 {
+	   font-size: 32px;	
+	   line-height: 50px;
+    }
+    .experienceText p {
+	   font-size: 14px;
+	   font-weight: 450;
+       padding: 0px;
+
+    }
+
+    /* Expereience PaRT End */
+
+    /* Clients Parts Start */
+    #clientsPart {
+	  padding: 45px 0px;
+    }
+   .col-cp-06{
+      text-align: center;
+      margin: 20px 0px;
+   }
+
+    /* Clients Parts End */
+
+    /* Portfolio Part End */
+
+    #portfolioPart {
+	   text-align: center;
+       padding: 50px 0px;
+    }
+    .portfolioText h1{
+        font-size:35px ;
+    }
+    .portfolioText h3{
+	   font-size: 35px;
+       margin-top: 25px;
+	   margin-bottom: 25px;
+    }
+    .portfolioText p {
+	  font-size: 11px;
+	  font-weight: 520;
+	  padding: 0px;
+      margin-top: 0px;
+    }
+
+    /* Portfolio Part End */
+
+
+    /* Testimony part Start */
+
+    #reviewPart {
+	 padding: 65px 0px;
+    
+    }
+    .reviewText h3 {
+	  font-size: 26px;
+    }
+    .reviewText p {
+      font-size: 14px;
+      font-weight: 450;
+      padding: 0px;
+    }
+    .testymoniText p {
+	  font-size: 13px;
+    }
+    .testimonyFlex img{
+	  width: 35px;
+	  height: 45px;
+    }
+    .testimonyAbout h3 {
+	  font-size: 11px;
+    }
+    .testimonyAbout p {
+	  font-size: 9px;
+    }
+    .testymoniItem {
+	 margin-bottom: 20px;
+    }
+
+
+    /* Testimony Part End */
+
+    /* Cta Part Start */
+
+    .ctaDetails {
+	  padding: 50px 0px;
+    }
+    .ctaText h3 {
+	 font-size: 25px;
+	 margin-top: 15px;
+	 margin-bottom: 20px;
+	 line-height: 40px;
+     padding: 0px;
+    }
+    .mCb {
+	 margin-top: 10px;
+    }
+    .mCb {
+	 padding: 15px 20px;
+    }
+
+    /* Cta Part End */
+
+
+
+}
+

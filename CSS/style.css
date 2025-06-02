@@ -4,10 +4,14 @@
     padding: 0;
     outline: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 a,a:hover{
     text-decoration: none;
     display: inline-block;
+}
+img{
+    vertical-align: middle;
 }
 h1,h2,h3,h4,h5,h6,p{
     margin: 0;
@@ -17,3 +21,363 @@ h1,h2,h3,h4,h5,h6,p{
 ul,ol{
     list-style-type: none;
 }
+
+/* Heading Part Start */
+
+.nav-link {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    margin: 0px 12px;
+}
+.mCb{
+    padding: 15px 25px;
+    background: #5e3bee;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: .6s;
+}
+.mCb i{
+    margin-left: 5px;
+}
+.mCb:hover{
+    background: transparent;
+    color: #000;
+}
+
+/* Heading Part End */
+
+/* Banner Part Start */
+
+#bannerPart{
+    background: #f9f9fc;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+.bannerText h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #5e3bee;
+    margin-top: 120px;
+}
+.bannerText h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #333333;
+    line-height: 78px;
+    margin-top: 45px;
+    margin-bottom: 60px;
+}
+.bbc i{
+    margin-right: 5px;
+    margin-left: 0px !important;
+}
+.bbc {
+    transition: .5s;
+}
+.bbc:hover{
+    background: transparent;
+    color: #000;
+}
+
+/* Banner Part End */
+
+/* Counter Part Start */
+
+#counterPart{
+    padding: 85px 0px;
+}
+.counterItem h3{
+    color: #000;
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.counterItem h4{
+    color: rgba(18, 18, 18, 0.699);
+    font-size: 14px;
+    font-weight: 400 ;
+}
+
+/* Counter part End */
+
+/* Service Part Start */
+
+#servicePart{
+    margin-top: 60px;
+    margin-bottom: 140px;
+}
+.serviceText h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #5e3bee;
+    text-transform: uppercase;
+}
+.serviceText h3{
+    font-size: 44px;
+    font-weight: 600;
+    color: #000;
+    text-transform: capitalize;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+.serviceText p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(18, 18, 18, 0.699);
+    padding: 0px 150px;
+    line-height: 32px;
+}
+.serviceItem{
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 37px 37px 80px 9px rgb(0, 0, 0, 0.1);
+    padding: 65px;
+    transition: .5s;
+}
+.serviceItem h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    margin-top:40px;
+    margin-bottom: 25px;
+}
+.serviceItem p{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 32px;
+}
+.serviceItem:hover{
+    background: #f9f9fc;
+}
+
+/* Service Part End */
+
+/* Experience Part Start */
+
+#experiencePart{
+    background: url(../Images/SECTION\ ABOUT.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0px;
+}
+.experienceText h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #5e3bee;
+}
+.experienceText h1{
+    font-size: 65px;
+    font-weight: 700;
+    color: #333333;
+    line-height: 78px;
+    padding: 35px 0px;
+    
+}
+.experienceText p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 32px;
+    padding-bottom: 25px;
+}
+
+/* Experience Part End */
+
+/* Clients Part Start */
+
+#clientsPart{
+    padding: 80px 0px;
+}
+
+/* Clients Part End*/
+
+/* Portfolio Part Start */
+
+#portfolioPart{
+    padding: 100px 0px;
+}
+.portfolioText h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #5e3bee;
+    text-transform: uppercase;
+}
+.portfolioText h3{
+    font-size: 44px;
+    font-weight: 600;
+    color: #000;
+    text-transform: capitalize;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+.portfolioText p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(18, 18, 18, 0.699);
+    line-height: 32px;
+    margin-top: 40px;
+}
+.cCard{
+    border: none !important;
+    filter: drop-shadow(37px 37px 80px rgba(0, 0, 0, 0.1));
+    border-radius: 24px;
+}
+.cCard img{
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+/* Portfolio Part End */
+
+/* Review Part Start */
+
+#reviewPart{
+    padding: 100px 0px;
+    background: #c4c4c4;
+   
+}
+.reviewText h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #5e3bee;
+    text-transform: uppercase;
+}
+.reviewText h3{
+    font-size: 44px;
+    font-weight: 600;
+    color: #000;
+    text-transform: capitalize;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+.reviewText p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(18, 18, 18, 0.699);
+    padding: 0px 150px;
+    line-height: 32px;
+}
+.testymoniItem{
+    padding: 50px;
+    background: #fff;
+    border-radius: 25px;
+    filter: drop-shadow(37px 37px 80px rgba(0, 0, 0, 0.1));
+}
+.testimonyFlex{
+    display: flex;
+}
+.testymoniBottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.testymoniItem i{
+    color: gold;
+    font-size: 24px;
+}
+.testymoniText p{
+    padding: 30px 0px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #000;
+}
+.testimonyFlex img{
+    margin-right: 15px;
+}
+.testimonyAbout{
+   margin-top: 5px;
+}
+.testimonyAbout h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+.testimonyAbout p{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.555);
+    margin-top: 5px;
+}
+
+/*  Review Part End */
+
+/* Cta Part Staert */
+#ctaPart{
+    padding: 100px 0px;
+}
+.ctaDetails{
+    padding: 120px 0px;
+    background: url(../Images/SECTION\ CTA\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+.ctaText h3{
+    padding: 0px 100px;
+    margin: 0 auto;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 72px;
+    margin-bottom: 25px;
+}
+
+/* Cta Part End */
+
+/* Footer Part Start */
+
+#footerPart{
+    width: 75%;
+    border-radius: 15px 15px 0px 0px;
+    padding: 50px;
+    margin: 0 auto;
+    background: #333333;
+    color: #fff;
+
+}
+.footerLeftpart p{
+    font-size: 16px;
+    width: 374px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 24px;
+}
+.footerRightpart a i{
+    padding-right: 10px;
+}
+.footerRightpart a{
+    font-size:16px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.footerIcon i{
+    font-size:35px;
+    margin-right:25px;
+}
+.fpartTop{
+    padding-bottom: 65px;
+    border-bottom: 2px solid#aaa9a9;
+}
+.footerMenu ul{
+    padding: 0;
+}
+.footerMenu ul li{
+    display: inline-block;
+    padding-right: 45px;
+    margin-top: 50px;
+}
+.footerMenu ul li a {
+    color: #fff;
+    font-size: 14px;
+}
+.tt{
+    margin-top: 50px;
+}
+
+/* Footer Part End */
