@@ -331,6 +331,7 @@ ul,ol{
 /* Cta Part End */
 
 /* Footer Part Start */
+
 #footerPart{
     width: 75%;
     border-radius: 15px 15px 0 0;
@@ -368,7 +369,7 @@ ul,ol{
     padding-top: 50px;
     padding-bottom: 30px;
 }
-.footerMenu ul {
+.footerMenu ul{
     padding-left: 0px;
 }
 .footerMenu ul li {
